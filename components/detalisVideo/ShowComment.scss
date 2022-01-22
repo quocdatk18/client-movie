@@ -1,0 +1,90 @@
+.showcomment{
+    margin: 0px auto;
+    background-color: #fff;
+    width: 100%px;
+    ul{
+        padding: 10px;
+        list-style: none;
+        .comments-main{
+            position: relative;
+            .comments-content{
+                display: flex;
+                width: 100%;
+                .name{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .comments{
+                    margin-left: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    span{
+                        color: rgb(61, 61, 255);
+                        font-size: 1rem;
+                    }
+                    .comments-icon{
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        span{
+                            margin-left: 4px;
+                        }
+                    }
+                    .icon-delete{
+                        // border: 1px solid #333;
+                        position: absolute;
+                        right: 0;
+                        color: red;
+                        cursor: pointer;
+                    }
+                    .hidden{
+                        display: none;
+                    }
+                    .comment-bottom{
+                        width: 100%;
+                        .user-comment{
+                            width: 100%;
+                            textarea{
+                                width: 100%;
+                                outline: none;
+                            }
+                        }
+                        .submit1{
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-end;
+                            margin-top: 4px;
+                            button{
+                                outline: none;
+                                border: none;
+                                padding: 4px;
+                                background-color:#1094f4;
+                                color: #fff;
+                            }
+                            
+                        }
+                    }
+                    .repcmts{
+                        ul{
+                            list-style: none;
+                        }
+                    }
+
+                }
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                bottom: 10px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background-color: rgb(202, 202, 202);
+            }
+        }
+
+}
+}

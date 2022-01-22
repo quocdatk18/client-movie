@@ -1,0 +1,86 @@
+.comment{
+    width: 100%;
+    height: auto;
+    // background-color: #2b2b2b;
+    .comment--bottom{
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgb(219, 219, 219);
+        .top{
+            width: 96%;
+            height: 80px;
+            margin: 0px auto;
+            .sort{
+                display: flex;
+                align-items: center;
+                width: 200px;
+                justify-content: space-between;
+                span{
+                    width: 45%;
+                    font-weight: 600;
+                }
+                select{
+                    text-transform: uppercase;
+                    border-radius: 3px;
+                    width: 54.9%;
+                    padding: 8px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .bottom{
+            width: 100%;
+            .comment-bottom{
+                width: 96%;
+                margin: 10px auto;
+                display: flex;
+                .img{
+                    width: 50px;
+                    height: 50px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+               form{
+                   width: 100%;
+                   height: 100%;
+                .user-comment{
+                    width: 96%;
+                    margin: 0px auto;
+                    background-color:white ;
+                    display: flex;
+                    padding:10px 0px;
+                    height:100%;
+                    textarea{
+                        resize: none;
+                        width: 100%;
+                        margin: 0px auto;
+                        border: none;
+                        height: auto;
+                        outline: none;
+                    }
+                }
+                .submit{
+                    // border-top: 1px solid gray ;
+                    height: 40px;
+                    // background-color: rgb(182, 182, 182);
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    width: 96%;
+                    margin: 0px auto;
+                    button{
+                        background-color: #1094F4;
+                         color: #fff;
+                         padding:4px 8px;
+                         border: none;
+                         font-weight: 600;
+                    }
+                   
+                }
+               }
+            }
+        }
+    }
+}

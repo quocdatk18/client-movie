@@ -1,0 +1,19 @@
+.showvideo{
+    display: flex;
+    &--div{
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        .showvideo-left{
+            width: 65%;
+           
+            
+        }
+        .showvideo-right{
+            width: 35%;
+            // height: 200px;
+           
+
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.video {
+    &--div{
+        .title{
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+        }
+        .video-colum{
+        // height: 247px;
+
+            div{
+                height: 100%;
+                ul{
+                    display: flex;
+                    height: 100%;
+                    padding: 0;
+                    list-style-type: none;
+                    flex-wrap: wrap;
+                    li{
+                        width: 25%;
+                        padding: 5px;
+                        position: relative;
+                        // height: 100%;
+                    
+                        a{
+                            .video-thumbnail{
+                                position: relative;
+                                height: 80% !important;
+                                // min-height: 207px;
+                                max-height: 197px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .video-meta{
+                             height: 20%;
+                                background-color: #4F4E52;
+                                padding-bottom: 30px;
+                               .name {
+                                   height: 70%;
+                                .h1{
+                                   
+                            
+                                    font-size: 12px ;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                text-align: center;
+                                    color: #44e2ff;
+                                    text-transform: uppercase;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    text-decoration: none;
+                                }
+                               }
+                                .about{
+                                    display: flex;
+                                    height: 30%;
+                                    justify-content: space-between;
+                                    div{
+                                        display: flex;
+                                        font-size: 12px;
+                                        
+                                    color: #fff;
+span{
+    margin-left: 2px;
+}
+                                        
+                                    }
+                                    h2{
+                                        font-size: 12px;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
